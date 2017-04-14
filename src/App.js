@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 //Component imports
-import About from './components/About';
-import BlogContainer from './containers/BlogContainer';
-import Header from './components/Header';
-import Home from './components/Home';
-import Footer from './components/Footer';
-import Login from './components/Login';
+import About from './components/about/About';
+import BlogContainer from './components/blog/BlogContainer';
+import Header from './components/header/Header';
+import Home from './components/home/Home';
+import Footer from './components/footer/Footer';
+import Login from './components/login/Login';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
