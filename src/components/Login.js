@@ -4,7 +4,7 @@ import LoginContainer from '../containers/LoginContainer';
 const Login = () => {
   return (
     <div>
-      <h3>This is Login</h3>
+      <h3 className="text-center">Login</h3>
       <LoginContainer />
     </div>
   );
