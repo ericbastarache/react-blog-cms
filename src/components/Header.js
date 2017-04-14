@@ -13,7 +13,7 @@ const Header = ({headerText}) => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand" href="#">{headerText}</a>
+          <Link className="navbar-brand" to="/">{headerText}</Link>
         </div>
 
         <div className="collapse navbar-collapse" id="navbar">
