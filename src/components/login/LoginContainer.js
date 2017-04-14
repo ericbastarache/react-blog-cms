@@ -23,9 +23,8 @@ class LoginContainer extends Component {
 
   render () {
     return (
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6 col-md-offset-3">
+      <div className="row">
+          <div className="col-md-8 col-md-offset-2">
             <form className="form-horizontal" onSubmit={this.handleSubmit}>
               <div className="form-group">
                 <label className="col-sm-2" htmlFor="txtUsername">Username:</label>
@@ -47,8 +46,6 @@ class LoginContainer extends Component {
             </form>
           </div>
         </div>
-      </div>
-
     );
   }
 }
