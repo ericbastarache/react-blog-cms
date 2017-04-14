@@ -1,4 +1,5 @@
 import axios from 'axios';
 
+//Posts actions
 export const FETCH_POSTS = 'FETCH_POSTS';
 export const FETCH_POST = 'FETCH_POST';
