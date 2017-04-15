@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Footer.css';
 
 const Footer = ({footerText}) => {
   return (
-    <footer>
+    <footer className="footer">
       <div className="container">
-        <p>{footerText}</p>
+        <p className="text-center">{footerText}</p>
       </div>
     </footer>
   );
