@@ -8,12 +8,18 @@ export class BlogContainer extends Component {
     this.state = {
       posts: [
         {
+          id: 1,
+          slug: 'test-post',
           name: 'Test post'
         },
         {
+          id: 2,
+          slug: 'another-test-post',
           name: 'Another test post'
         },
         {
+          id: 3,
+          slug: 'will-the-test-posts-ever-end',
           name: 'Will the test posts ever end?'
         }
       ]
