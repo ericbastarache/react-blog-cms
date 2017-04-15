@@ -9,7 +9,6 @@ import Footer from './components/footer/Footer';
 import Login from './components/login/Login';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './App.css';
 
 class App extends Component {
   render() {
