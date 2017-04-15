@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Blog from './Blog';
 import { connect } from 'react-redux';
+import Blog from './Blog';
 
 export class BlogContainer extends Component {
   constructor (props) {
