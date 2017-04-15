@@ -1,0 +1,20 @@
+nav.navbar-cms {
+  background: linear-gradient(to bottom right, #0E009B, #0C0088);
+  border-radius: 0;
+}
+
+a.navbar-brand {
+  color: #fff;
+}
+
+ul.navbar-nav > li > a:hover {
+  background-color: #090061;
+}
+
+ul.navbar-nav > li > a {
+  color: #fff;
+}
+
+span.icon-bar {
+  background-color: #fff;
+}
