@@ -7,7 +7,7 @@ a.navbar-brand {
   color: #fff;
 }
 
-ul.navbar-nav > li > a:hover {
+ul.navbar-nav > li > a:hover, ul.navbar-nav > li > a:focus {
   background-color: #090061;
 }
 
