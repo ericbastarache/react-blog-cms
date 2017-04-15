@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 //Component imports
 import About from './components/about/About';
 import BlogContainer from './components/blog/BlogContainer';
+import BlogItem from './components/blog/BlogItem';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
@@ -18,7 +19,8 @@ class App extends Component {
           <Header headerText="React Blog CMS"/>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/blog"  component={BlogContainer} />
+          <Route exact path="/blog"  component={BlogContainer} />
+          <Route path="/blog/:slug" component={BlogItem}/>
           <Route path="/login" component={Login} />
           <Footer footerText="&copy; Copyright 2017"/>
         </div>
