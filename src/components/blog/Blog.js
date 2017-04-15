@@ -5,9 +5,9 @@ import './Blog.css';
 const Blog = (props) => {
   const posts = props.posts;
   const postItems = posts.map((p) =>
-     <li className="blog-item" key={p.id}>
-       <Link to={"/blog/" + p.slug}>{p.name}</Link>
-     </li>
+    <li className="blog-item" key={p.id}>
+      <Link to={"/blog/" + p.slug}>{p.name}</Link>
+    </li>
   );
   return (
     <div>
