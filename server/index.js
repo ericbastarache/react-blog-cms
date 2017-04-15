@@ -4,3 +4,5 @@ import logger from 'koa-logger';
 import router from 'koa-router';
 
 const app = new Koa();
+
+app.use(bodyParser());
