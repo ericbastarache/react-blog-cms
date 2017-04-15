@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Header.css';
 import { Link } from 'react-router-dom';
 
 const Header = ({headerText}) => {
   return (
-    <nav className="navbar navbar-default" role="navigation">
+    <nav className="navbar navbar-cms" role="navigation">
       <div className="container-fluid">
         <div className="navbar-header">
           <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar">
