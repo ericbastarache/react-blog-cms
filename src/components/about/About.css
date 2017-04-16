@@ -1,9 +1,13 @@
 div.dark-about-card {
-
+  box-shadow: 0 0 5px #ccc;
+  background-color: #0b00ec;
+  color: #fff;
+  padding: 10px;
 }
 
 div.light-about-card {
-
+  box-shadow: 0 0 5px #ccc;
+  padding: 10px;
 }
 
 h2.simplicity {
@@ -11,5 +15,5 @@ h2.simplicity {
 }
 
 h2.lightning-quick {
-  
+
 }

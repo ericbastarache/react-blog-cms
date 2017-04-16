@@ -1,4 +1,5 @@
 import React from 'react';
+import './About.css';
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
         <div className="col-md-6">
           <div className="dark-about-card">
             <h2 className="simplicity">Simple</h2>
-            <p>The blog and CMS are both easy to get started with while providing you with the ability to create, update, read, and delete blog posts just as you would with any other blogging platform. While it's not fully featured yet, 
+            <p>The blog and CMS are both easy to get started with while providing you with the ability to create, update, read, and delete blog posts just as you would with any other blogging platform. While it's not fully featured yet,
             every effort is being made to keep the application simple, while adding in the extensive features you expect from a fully functional CMS for blogging purposes.</p>
           </div>
         </div>
