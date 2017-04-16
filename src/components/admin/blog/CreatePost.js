@@ -3,8 +3,12 @@ import './Blog.css';
 
 class CreatePost extends Component {
 
-  handleSubmit = (props) => {
+  handleSubmit = (e) => {
 
+  }
+
+  handleChange = (e) => {
+    
   }
 
   render() {
