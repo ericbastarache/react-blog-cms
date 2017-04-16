@@ -10,11 +10,9 @@ const Blog = (props) => {
     </li>
   );
   return (
-    <div>
-      <ul className="blog-posts">
-        {postItems}
-      </ul>
-    </div>
+    <ul className="blog-posts">
+      {postItems}
+    </ul>
   );
 }
 
