@@ -29,8 +29,8 @@ export class BlogContainer extends Component {
     }
   }
 
-  componentWillMount () {
-    
+  componentDidMount () {
+
   }
 
   render () {
