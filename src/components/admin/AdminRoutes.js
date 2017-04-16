@@ -7,11 +7,11 @@ import UpdatePost from './blog/UpdatePost';
 const AdminRoutes = () => {
   return (
     <Switch>
-      <Route exact path="/dashboard" component={Dashbaord} />
-      <Route path="/dashboard/create" component={CreatePost} />
-      <Route path="/dashboard/update/:id" component={UpdatePost} />
+      <Route exact path="/admin/dashboard" component={Dashboard} />
+      <Route path="/admin/dashboard/create" component={CreatePost} />
+      <Route path="/admin/dashboard/update/:id" component={UpdatePost} />
     </Switch>
-  )
+  );
 }
 
 export default AdminRoutes;
