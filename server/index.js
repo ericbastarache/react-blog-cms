@@ -5,6 +5,7 @@ const router = require('koa-router');
 const port = process.env.PORT || 3001;
 
 const app = new Koa();
+const router = router();
 
 app.use(bodyParser());
 
