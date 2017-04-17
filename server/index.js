@@ -8,5 +8,6 @@ const app = new Koa();
 
 app.use(bodyParser());
 
-console.log(`APP is listening on ${port}`);
-app.listen(port);
+app.listen(port, () => {
+  console.log('Server running on http://localhost:' + port);
+});
