@@ -16,7 +16,7 @@ class App extends Component {
           <Main />
           <Footer footerText="&copy; Copyright 2017"/>
         </div>
-    </Router>
+      </Router>
     );
   }
 }
