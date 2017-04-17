@@ -6,7 +6,7 @@ const About = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <h3 className="text-center">About This Project</h3>
+          <h3 className="text-center">This Blog (with CMS)</h3>
         </div>
       </div>
       <div className="row">

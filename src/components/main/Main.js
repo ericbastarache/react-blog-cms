@@ -6,7 +6,6 @@ import About from '../about/About';
 import BlogContainer from '../blog/BlogContainer';
 import BlogItem from '../blog/BlogItem';
 import Login from '../login/Login';
-import AdminRoutes from '../admin/AdminRoutes';
 
 const Main = () => {
   return(
@@ -18,8 +17,7 @@ const Main = () => {
       <Route path="/blog/:slug" component={BlogItem}/>
       <Route path="/login" component={Login} />
     </Switch>
-
-      <AdminRoutes />
+      
     </div>
   );
 }
