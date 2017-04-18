@@ -7,8 +7,8 @@ const AuthController = require('../controllers/AuthController');
 //Post routes
 router.get('/posts', PostsController.get_posts);
 router.get('/posts/:id', PostsController.get_post);
-router.get('/posts/create', PostsController.create_post);
-router.get('/posts/update/:id', PostsController.update_post);
+router.post('/posts/create', PostsController.create_post);
+router.put('/posts/update/:id', PostsController.update_post);
 
 //Authentication routes
 router.get('/auth', AuthController.get_user);
