@@ -1,8 +1,8 @@
-const Router = require('koa-router');
-const router = new Router();
+const express = require('express');
+const router = express.Router();
+
 const PostsController = require('../../server/controllers/PostsController');
 
-
-router.get('/posts', PostsController.get_posts);
-
-module.exports = router;
+module.exports = (router) => {
+  router.get('/posts', PostsController.get_posts);
+}
