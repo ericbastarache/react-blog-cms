@@ -33,7 +33,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "nodemon ./server/index.js",
+    "server": "nodemon --watch server --exec babel-node -- ./server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
