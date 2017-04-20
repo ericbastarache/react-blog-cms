@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-
 import Home from '../home/Home';
 import About from '../about/About';
 import BlogContainer from '../blog/BlogContainer';
@@ -17,7 +16,6 @@ const Main = () => {
       <Route path="/blog/:slug" component={BlogItem}/>
       <Route path="/login" component={Login} />
     </Switch>
-      
     </div>
   );
 }
