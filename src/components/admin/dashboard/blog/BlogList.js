@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { fetchPost } from '../../../../actions';
 
 class BlogList extends Component {
   render () {
