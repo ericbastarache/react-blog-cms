@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Main from './components/main/Main';
-import Dashboard from './components/admin/dashboard/Dashboard';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -14,8 +13,7 @@ class App extends Component {
       <Router>
         <div>
           <Header headerText="React Blog CMS"/>
-          <Main />
-          <Dashboard />
+            <Main />
           <Footer footerText="&copy; Copyright 2017"/>
         </div>
       </Router>
