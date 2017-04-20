@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class BlogList extends Component {
   render () {
     return (
-      <h1>Blog List</h1>
+      <h1 className="text-center">Blog List</h1>
     );
   }
 }
