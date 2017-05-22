@@ -15,7 +15,7 @@ class UpdatePost extends Component {
                 <div className="form-inline">
                   <label htmlFor="category">Post Category: </label>
                   <select className="form-control" name="categories">
-                    <option>--------</option>
+                    <option>Choose Category</option>
                     <option>Technology</option>
                     <option>Science</option>
                   </select>
