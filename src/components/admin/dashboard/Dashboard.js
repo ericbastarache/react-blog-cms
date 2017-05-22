@@ -8,10 +8,10 @@ import UpdatePost from './blog/UpdatePost';
 const Dashboard = () => {
   return (
     <Switch>
-      <Route path="/admin/dashboard" component={DashboardIndex} />
-      <Route path="/admin/dashboard/posts" component={BlogList} />
-      <Route path="/admin/dashboard/posts/create" component={CreatePost} />
-      <Route path="/admin/dashboard/posts/update/:id" component={UpdatePost} />
+      <Route exact path="/admin/dashboard" component={DashboardIndex} />
+      <Route path="/admin/dashboard/allPosts" component={BlogList} />
+      <Route path="/admin/dashboard/createPost" component={CreatePost} />
+      <Route path="/admin/dashboard/updatePost/:id" component={UpdatePost} />
     </Switch>
   );
 }
