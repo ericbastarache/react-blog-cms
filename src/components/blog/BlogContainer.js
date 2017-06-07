@@ -52,4 +52,5 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default connect(mapStateToProps)(BlogContainer);
+export default BlogContainer;
+//export default connect(mapStateToProps)(BlogContainer);
