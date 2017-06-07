@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-//import { fetchPosts } from '../../actions';
-//import { connect } from 'react-redux';
+import { fetchPosts } from '../../actions';
+import { connect } from 'react-redux';
 import './Blog.css';
 
 class Blog extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render () {
     return (
       <ul className="blog-posts">
@@ -14,6 +18,7 @@ class Blog extends Component {
   }
 
   renderPosts () {
+    console.log(this.props);
     const posts = this.props.posts;
     return posts.map((p) => {
       return(
@@ -24,7 +29,7 @@ class Blog extends Component {
     });
   }
 
-  componentWillMount () {
+  componentDidMount () {
     //this.props.fetchPosts();
   }
 }
@@ -36,4 +41,5 @@ const mapStateToProps = (state) => {
 }
 
 export default Blog;
+//export default connect(mapStateToProps)(Blog);
 //export default connect(mapStateToProps, {fetchPosts})(Blog);
