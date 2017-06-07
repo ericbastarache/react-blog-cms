@@ -1,7 +1,9 @@
 import { FETCH_POSTS, FETCH_POST } from '../actions';
+import posts from '../../src/dummy';
+console.log(posts);
 
 const INITIAL_STATE = {
-  posts: [],
+  posts: posts,
   post: null
 }
 
