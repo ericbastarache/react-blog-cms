@@ -7,3 +7,16 @@ ul.blog-posts > li.blog-item {
   padding: 10px;
   box-shadow: 0 0 5px #ccc;
 }
+
+div.blog-single-post {
+  padding: 10px;
+  box-shadow: 0 0 3px #cdcdcd;
+  border-radius: 5px;
+  margin: 25px;
+}
+
+p.single-post-content {
+  line-height: 2em;
+  margin-top: 15px;
+  font-weight: 100;
+}
