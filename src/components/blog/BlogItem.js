@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import './Blog.css';
 
-// const BlogItem = (props) => {
-//
-//   return (
-//     <div>
-//
-//     </div>
-//   );
-// }
 class BlogItem extends Component {
   render () {
     return (
@@ -24,10 +17,13 @@ class BlogItem extends Component {
       console.log(post);
       if(post.slug === this.props.match.params.slug) {
         return (
-           <div key={post.id}>
-             <h1>{post.name}</h1>
-             <p>{post.content}</p>
-           </div>
+          <div>
+            <div className="blog-single-post" key={post.id}>
+              <h1 className="text-center">{post.name}</h1>
+              <p className="single-post-content">{post.content}</p>
+            </div>
+            
+         </div>
          )
        }
     })
