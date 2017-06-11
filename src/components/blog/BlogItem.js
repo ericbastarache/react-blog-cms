@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import './Blog.css';
 
 class BlogItem extends Component {
@@ -21,8 +22,8 @@ class BlogItem extends Component {
             <div className="blog-single-post" key={post.id}>
               <h1 className="text-center">{post.name}</h1>
               <p className="single-post-content">{post.content}</p>
+              <Link to="/blog" className="back-to-blog">Back to Posts</Link>
             </div>
-            
          </div>
          )
        }
