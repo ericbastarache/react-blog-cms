@@ -20,3 +20,11 @@ p.single-post-content {
   margin-top: 15px;
   font-weight: 100;
 }
+
+a.back-to-blog {
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+}
