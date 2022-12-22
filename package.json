@@ -10,7 +10,7 @@
     "bcrypt": "^1.0.2",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "jsonwebtoken": "^7.3.0",
+    "jsonwebtoken": "^9.0.0",
     "marked": "^0.3.6",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
